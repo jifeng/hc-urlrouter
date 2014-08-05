@@ -1,0 +1,45 @@
+{
+  "name": "hc-urlrouter",
+  "description": "connect missing router middleware, support express format routing.",
+  "keywords": ["router", "url", "connect", "middleware", "express", "honeycomb"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/jifeng/hc-urlrouter",
+  "author": "wade428@163.com",
+  "repository": {
+    "url": "git://github.com/fengmk2/urlrouter.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "http://github.com/fengmk2/urlrouter/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all",
+    "blanket": {
+      "pattern": "urlrouter/lib",
+      "data-cover-flags": {
+        "debug": false
+      }
+    },
+    "travis-cov": {
+      "threshold": 97
+    }
+  },
+  "dependencies": {
+    "methods": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "3.1.2",
+    "supertest": "*",
+    "pedding": "*",
+    "blanket": "*",
+    "travis-cov": "*",
+    "coveralls": "*",
+    "mocha-lcov-reporter": "*",
+    "connect": "2.12.0"
+  },
+  "engines": {
+    "node": ">=0.6.7"
+  }
+}
