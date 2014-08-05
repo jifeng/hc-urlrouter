@@ -54,6 +54,7 @@ var router = urlrouter(function (app) {
   app.all('/all', function (req, res) {
     res.end(req.method + ' ' + req.originalUrl);
   });
+
   app.get('/mwSuccess', middleware, function (req, res) {
     res.end(req.method + ' ' + '/mwSuccess');
   });
