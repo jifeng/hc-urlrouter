@@ -6,11 +6,11 @@
   "homepage": "https://github.com/jifeng/hc-urlrouter",
   "author": "wade428@163.com",
   "repository": {
-    "url": "git://github.com/fengmk2/urlrouter.git",
+    "url": "git://github.com/jifeng/hc-urlrouter.git",
     "type": "git"
   },
   "bugs": {
-    "url": "http://github.com/fengmk2/urlrouter/issues"
+    "url": "http://github.com/jifeng/hc-urlrouter/issues"
   },
   "main": "index.js",
   "scripts": {
